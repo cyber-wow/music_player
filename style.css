@@ -1,0 +1,431 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: white;
+    background: white;
+}
+.container{
+    margin: 0 auto;
+    width: 1440px; 
+}
+.page_header{
+    z-index: 0;
+    width: 1440px;
+    height: 1024px;
+    background-image: url(images/desktop.png)
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    min-height: 70px;
+    margin-left: 122px;
+    padding-top: 47px;
+    padding-right: 70px;
+}
+.logo{
+    display: block;
+    margin-top: 10px;
+}
+.navigation_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: auto 0;
+    padding: 0;
+    margin-left: 190px;
+    list-style: none;
+}
+.navigation_text{
+    display: block;
+    min-width: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family:'Istok Web',sans-serif;
+    line-height: 26px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navigation_text:hover{
+    color: rgb(235, 173, 173);
+}
+.container_page_header{
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+}
+.text_header_list{
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.text_header{
+    margin: 0;
+    padding: 0;
+    width: 412px;
+    height: 264px;
+    padding-top: 191px;
+    margin-left: 115px;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150px;
+    font-family:'Kenia','Unexplored Galaxies -BRK-','Wager Won BRK','Jawbreaker BRK',sans-serif;
+}
+.text_company{
+    margin: 0;
+    padding: 0;
+    width: 290px;
+    height: 63px; 
+    padding-top: 175px;
+    padding-bottom: 469px;
+    margin-left: 115px;
+    font-family:'Istok Web',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;  
+}
+.img1{
+    z-index: 2;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    transform: rotate(-132.68deg);
+    width: 760px;
+    height: 570px;
+    left: 250px;
+    top: 260px;
+}
+
+.img2{
+    z-index: 3;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 888.01px;
+    left: 865px;
+    top: 100px;
+    margin-top: -100px; 
+  
+}
+.img3{
+    z-index: 2;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 350px;
+    left: 913px;
+    top: 862px; 
+    margin-top: -127px; 
+}
+.page_music{
+    position:absolute;
+    z-index: 2;
+    width: 1440px;
+    height: 1024px;
+    background-color: #D53005;
+}
+h1{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 84px;
+    height: 35px;
+    margin-top: 83px;
+    margin-left: 122px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF
+}
+
+.nav_music{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_music_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_music_link_li{
+    z-index: 2;
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 122px;
+    top: 385px;
+    text-align: center;
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    mix-blend-mode: normal;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5), -4px -4px 30px rgba(255, 255, 255, 0.1);
+}
+.nav_music_link{
+    position: relative;
+    display: block;
+    font-family: 'Karla';
+    font-size: 40px;
+    line-height: 47px;
+    text-decoration: none;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav_music_link_li1{
+    z-index: 2;
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 122px;
+    top: 556px;
+    text-align: center;
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    mix-blend-mode: normal;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5), -4px -4px 30px rgba(255, 255, 255, 0.1);
+}
+.nav_music_link:hover{
+    color: rgb(235, 173, 173);
+}
+.imgRoom1{
+    z-index: 1;
+    position: relative;
+    display: block;
+    width: 1000px;
+    height: 666.5px;
+    margin-left: 440px;
+}
+.imgRoom2{
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 666.5px;
+    margin-top: -270px;
+}
+.page_about{
+    position:absolute;
+    z-index: 2;
+    width: 1440px;
+    height: 1024px;
+    top: 2048px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+}
+.page_about_div{
+    position: relative;
+    display: block;
+    width: 969px;
+    height: 72px;
+    text-align: justify;
+    margin-left: 275px;
+    margin-top: 476px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.page_store{
+    position:absolute;
+    z-index: 2;
+    width: 1440px;
+    height: 1024px;
+    top: 3072px;
+    background-color: #D53005;
+}
+.page_store_div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_store_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav_store_link_li{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 110px;
+    top: 254px;
+    text-align: center;
+    color: white;
+    background: rgba(2, 2, 2, 0.9);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 30px;}
+.nav_store_link{
+    position: relative;
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav_store_link:hover{
+    color: rgb(235, 173, 173);}
+.nav_store_link_li1{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 110px;
+    top: 362px;
+    text-align: center;
+    background: #E3E3E3;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+.nav_store_link1{
+    position: relative;
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav_store_link1:hover{
+    color: rgba(212, 64, 64, 0.678);}
+.page_store_text_div{
+    position: relative;
+    display: block;
+    width: 431px;
+    top: 457px;
+    left: 20px;
+    text-align: center;
+}
+.textP {
+    width: 419px;
+    height: 28px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.textP1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.page_store_text_div>a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.macbook{
+    z-index: 3;
+    position: relative;
+    display: inline-block;
+    width: 1168.32px;
+    margin-left: 336px;
+    margin-top: -100px;
+}
+.page_footer{
+    position:absolute;
+    z-index: 2;
+    width: 1440px;
+    height: 536px;
+    top: 4096px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+}
+.main_footer{
+    margin-left: 452px;
+    margin-top: 120px;
+}
+.nav_footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 147px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    list-style: none;
+    color: #FFFFFF;
+}
+.box_footer1{
+    display: block;
+    width: 180px;
+    height: 148px;
+}
+.box_footer2{
+    display: block;
+    width: 196px;
+    height: 148px;
+}
+.box_footer3{
+    display: block;
+    width: 256px;
+    height: 108px;
+}
+.bold{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+}
+.link_a{
+    text-decoration: none;
+    color: white;
+}
+.link_a:hover{
+    color: rgb(235, 173, 173);
+}
+.footer_music{
+    margin: 0;
+    padding: 0;
+    width: 138px;
+    height: 100px;
+    padding-top: 70px;
+    margin-left: 110px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    font-family:'Kenia','Unexplored Galaxies -BRK-','Wager Won BRK','Jawbreaker BRK',sans-serif;
+
+}
+.footer_last_ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 99px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 106px;
+}    
