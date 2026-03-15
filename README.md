@@ -1,2 +1,2 @@
-# music_player
+# Music_player
 Music player
